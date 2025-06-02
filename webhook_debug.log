@@ -1,0 +1,268 @@
+{
+  "event": "payment.succeeded",
+  "object": {
+    "status": "succeeded",
+    "metadata": {
+      "payment_id": "test123"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcf9c7a-000f-5001-9000-17874cd4a06b",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcf9c7a-000f-5001-9000-17874cd4a06b",
+      "saved": true,
+      "status": "active",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:19:28.215Z",
+    "created_at": "2025-06-02T11:19:22.333Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "3853eaa2-00d5-4f44-839a-afcfed33d386"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcf9d50-000f-5001-8000-1229ca3bcad7",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcf9d50-000f-5001-8000-1229ca3bcad7",
+      "saved": false,
+      "status": "inactive",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:24:42.765Z",
+    "created_at": "2025-06-02T11:22:56.457Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "ebb5ab73-1100-4566-bf8f-0b4d086f0b9c"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcf9ebf-000f-5001-8000-1409ea2e91cb",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcf9ebf-000f-5001-8000-1409ea2e91cb",
+      "saved": false,
+      "status": "inactive",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:29:12.855Z",
+    "created_at": "2025-06-02T11:29:03.015Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "1f143c80-5f6a-4243-b09e-7d5432f09460"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcf9f12-000f-5000-b000-14da84868e10",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcf9f12-000f-5000-b000-14da84868e10",
+      "saved": false,
+      "status": "inactive",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:30:33.949Z",
+    "created_at": "2025-06-02T11:30:26.254Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "07ca192a-55a8-4f39-9e94-5db5ebd13a6c"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcfa028-000f-5001-9000-1669c832c2ff",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcfa028-000f-5001-9000-1669c832c2ff",
+      "saved": false,
+      "status": "inactive",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:35:17.737Z",
+    "created_at": "2025-06-02T11:35:04.093Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "d1d54f52-81e0-4799-ae20-f561a83ce4bf"
+    }
+  }
+}
+
+{
+  "type": "notification",
+  "event": "payment.succeeded",
+  "object": {
+    "id": "2fcfa07a-000f-5000-b000-11851f0faf8f",
+    "status": "succeeded",
+    "amount": {
+      "value": "100.00",
+      "currency": "RUB"
+    },
+    "income_amount": {
+      "value": "96.50",
+      "currency": "RUB"
+    },
+    "description": "Подписка на канал",
+    "recipient": {
+      "account_id": "1097621",
+      "gateway_id": "2470586"
+    },
+    "payment_method": {
+      "type": "yoo_money",
+      "id": "2fcfa07a-000f-5000-b000-11851f0faf8f",
+      "saved": false,
+      "status": "inactive",
+      "title": "YooMoney wallet 410011758831136",
+      "account_number": "410011758831136"
+    },
+    "captured_at": "2025-06-02T11:36:36.959Z",
+    "created_at": "2025-06-02T11:36:26.659Z",
+    "test": true,
+    "refunded_amount": {
+      "value": "0.00",
+      "currency": "RUB"
+    },
+    "paid": true,
+    "refundable": true,
+    "metadata": {
+      "cms_name": "yookassa_sdk_python",
+      "payment_id": "26dd38f5-545b-4b6f-a649-3a27815bdaca"
+    }
+  }
+}
+
