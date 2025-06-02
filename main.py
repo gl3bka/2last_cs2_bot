@@ -108,28 +108,26 @@ async def yookassa_webhook(request):
         traceback.print_exc()
         return web.Response(status=500)
 
-# === aiohttp сервер
-async def start_webhook_server():
-    app = web.Application()
-    app.router.add_post('/webhook_yookassa', yookassa_webhook)
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, "0.0.0.0", 8000)
-    await site.start()
-    print("🚀 Webhook сервер запущен на http://0.0.0.0:8000")
-
 # === Запуск всего
+from aiohttp import web
+
 async def main():
     logging.basicConfig(level=logging.INFO)
     init_db()
-    await start_webhook_server()
 
-    # Запускаем бот параллельно, не блокируя aiohttp
+    app = web.Application()
+    app.router.add_post("/webhook", yookassa_webhook)
+
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, "0.0.0.0", 443)  # если с HTTPS, иначе 80
+    await site.start()
+
     bot_task = asyncio.create_task(dp.start_polling(bot))
 
-    # Ждём бесконечно, чтобы aiohttp работал
     while True:
         await asyncio.sleep(3600)
+
 
 
 
