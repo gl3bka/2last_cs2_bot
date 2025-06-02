@@ -1,9 +1,0 @@
-{
-  "event": "payment.succeeded",
-  "object": {
-    "status": "succeeded",
-    "metadata": {
-      "payment_id": "test123"
-    }
-  }
-}
